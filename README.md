@@ -6,12 +6,12 @@ Simple log messages for NodeJS.
 
 ## Install
 ```sh
-  npm install pretty-log
+  npm install pretty-log -g
 ```
 
 ## Usage
 Pretty-log provides the logs: error, warn, success and debug
-```sh
+```js
   var log require('pretty-log');
 
   log.error('MESSAGE');
@@ -23,4 +23,4 @@ Pretty-log provides the logs: error, warn, success and debug
 ![output](http://i62.tinypic.com/28mjy1j.png)
 
 ## License
-Biju is available under the MIT license.
+Pretty-log is available under the MIT license.
